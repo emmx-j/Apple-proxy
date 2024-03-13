@@ -1,0 +1,784 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+
+li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+video{
+  width: 100%;
+  height:47vh ;
+  object-fit: cover;
+}
+
+
+
+.heading{
+  position:absolute;
+  width: 100%;
+  height: 47%;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: "lato";
+  font-weight: 300;
+  margin-top: 8rem;
+  font-size: 4rem;
+}
+
+
+
+.linkName{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Roboto"; 
+  margin-right: 40px;
+}
+
+.navL{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.navList{
+  display: flex;
+}
+
+.headListConaner{
+  display: flex;
+  position: absolute;
+  top: 10rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 47%;
+}
+
+ .ss{
+  color: red;
+}
+
+.navL:hover,
+.navL:active{
+ background-color: #fff;
+ color: #000;
+ padding: 6px;
+}
+
+.section{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 30px;
+}
+
+h1{
+  margin-bottom: 70px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 50px;
+}
+
+h2{
+  margin-bottom: 70px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 50px;
+}
+
+h2:after{
+  content: "";
+  border: 2px solid #00296f;
+  width: 70px;
+  display: block;
+  margin:  0px auto;
+  margin-top: 50px;
+}
+
+h3{
+  font-size: 13px;
+  color: rgb(69, 68, 68);
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+#inpuName{
+  height: 40px;
+  width: 30rem;
+  margin: 9px 0;
+  font-size: 19px;
+  padding-left: 8px ;
+  background-color: #e2e2e2;
+  border: none;
+  outline-color: rgb(0, 200, 255);
+  transition: 1.3s;
+}
+
+#inpuName:focus{
+  background-color: rgba(0, 255, 255, 0.303);
+}
+
+.last{
+  margin-bottom: 20px;
+}
+.forgetPas{
+  width: 100px;
+  font-size: 16px;
+  border: none;
+  margin-left: 10rem;
+  background-color: #cabd05c2;
+  color: #fff;
+  padding:2px;
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 40px;
+  width: 10rem;
+}
+
+
+.checkbox{
+  display: flex;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+#checkBoxBTN{
+  margin-right: 10px;
+}
+
+.submet{
+  display:flex ;
+  justify-content: space-between;
+}
+
+.loginL{
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #054dcac2;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 12px 10px 0 10px;
+}
+
+.footer{
+  background: rgb(0,71,71);
+  background: linear-gradient(0deg, rgba(0,71,71,1) 0%, rgba(1,18,62,1) 100%);
+  height: 15rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  box-shadow: 0px -2px 18px #00296f;
+  padding-top: 12px;
+  padding-left: 40px;
+}
+
+.footerH2{
+  color: #fff; 
+  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.p2{
+  color: #cdcaca;
+  margin-right: 40px;
+}
+
+.submetBTN{
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(0, 255, 21);
+  padding: 0 7px;
+  font-size: 17px;
+  width: 30rem;
+}
+.newh2{
+  font-size: 30px;
+  font-family: "Lato";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  color: rgba(29, 29, 29, 0.752);
+}
+
+.content-textP{
+  color: #2d2c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  font-size: 17px;
+}
+
+p{
+  margin-top: 10px;
+  font-family: "lato";
+  font-weight: 300;
+}
+.centerN{
+  display: flex;
+  margin: 40px 0;
+  flex-direction: column;
+  align-items: center;
+  font-family:"Lato";
+  font-size: 19px;
+}
+
+.Active{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Aitmes{
+  padding-right: 30px;
+  font-size: 22px;
+}
+
+.Aitmes p{
+  margin-left: 3px; 
+}
+
+.pTage{
+  padding-left: 30px;
+}
+
+.pTageT{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.buttonP{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+.buttonP-LInk{
+  color: #fff;
+  font-size: 22px;
+  font-family: "lato";
+  text-decoration: none;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+.New-buttonP-LInk{
+  color: #fff;
+  font-size: 20px;
+  font-family: "lato";
+  text-decoration: none;
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+.buttonP-LInk:hover,
+.buttonP-LInk:active{
+  color: #929292;
+  transform: scale(1.03);
+}
+
+.preminoHeading{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+.premcont{
+  display: flex;
+}
+
+.prmName{
+  border: 1px solid #9c9c9c;
+  width: 150px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
+  color: #2d2c2cd2;
+  font-family: "Roboto";
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.premcontent{
+  color: #2d2c2cd2;
+  border: 1px solid #9c9c9c;
+  width: 40rem;
+  padding: 5px;
+  margin-right: 5px;
+  font-family: "Roboto";
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.prmNameTwo{
+  border: 1px solid #9c9c9c;
+  width: 150px;
+  padding: 5px;
+  margin-right: 5px;
+  color: #2d2c2cd2;
+  font-family: "Roboto";
+  background-color: rgb(232, 221, 232);
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.premcontentTwo{
+  border: 1px solid #9c9c9c;
+  width:  40rem;
+  padding: 0 0 8px 5px;
+  margin-right: 5px;
+  color: #2d2c2cd2;
+  font-family: "Roboto";
+  background-color: rgb(232, 221, 232);
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h4{
+  padding-bottom: 5px;
+}
+
+.contactus{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.contactcontext{
+  font-size: 30px;
+  color: #2a2929d1;
+  font-family: "lato";
+  margin-bottom: 40px;
+}
+
+.contactLink{
+  color: #2a2929d1;
+  font-family: "lato";
+}
+
+/* .endlist::after{
+    content: "";
+    display: block;
+    width:80rem ;
+    border: 1px solid rgba(1, 2, 10, 0.701);;
+    margin:  0px auto;
+    margin-top: 50px;
+} */
+
+.contentHead{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  flex-direction: column;
+  border: 2px solid #000 ;
+  padding: 5rem;
+  width: 70rem;
+}
+
+
+.contaner{
+  display: flex;
+}
+
+.bgInnput{
+  height: 500px;
+  width: 30rem;
+  border: 1px solid #000;
+}
+
+.inputconten{
+  font-size: 18px;
+  padding: 10px;
+}
+.secondcontaner{
+  margin-left: 15rem;
+}
+
+.secondcontaner p{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  color: red;
+}
+
+.actionOne{
+  background-color: #005eff;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom:10px;
+}
+
+.inputListOne{
+  margin-top: 10px;
+}
+
+.selectorHead{
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  margin-bottom:20px ;
+}
+
+.selectorItemsList{
+color: #000;
+background-color: #fff;
+}
+
+.inputListOne p{
+  font-size: 18px;
+  max-width: 10rem;
+  margin:15px 10px;
+}
+
+.inputListOne input{
+  width: 130px;
+  height: 30px;
+}
+
+.contentOne{
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.welcomeHeading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.compliteContext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alingcon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  width: 40rem;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.iconGod{
+  font-size: 100px;
+}
+
+.secondText{
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+.section{
+  margin-bottom: 8rem;
+}
+
+#erropass{
+  color: red;
+}
+
+.amoutsection{
+  background-color: #e7e4e4e6;
+  height: 40rem;
+}
+
+.alingconT{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d4d1d1;
+  width: 40rem;
+  border-radius: 5px;
+  height: 200px;
+  padding:30px 0 0 40px;
+  box-shadow: 0px -2px 18px #686b6f6f;
+}
+
+.compliteContextT{
+  margin-left: 30px;
+}
+
+.insights{
+  font-size: 30px;
+  margin-left: 2rem;
+  margin-top: 20px;
+}
+
+.balanceOutput{
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+
+.PaymentData{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.PaymentInfo{
+  width: 100%;
+  background-color: #00000088;
+  height: 45vh;
+  top: 0.2px;
+  margin:0 auto;
+  position: fixed;
+}
+
+.priceItem{
+  width: 35rem;
+  font-size: 20px;
+  margin: 10px 10px;
+  background-color: #005eff;
+  color: #fff;
+  font-family: "Lato",sans-serif;
+  font-weight: 300;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+.priceItem:hover,
+.priceItem:active{
+  transform: scale(1.05);
+ 
+}
+.Xcloss{
+  font-size: 30px;
+  float: right;
+  left: 20;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================== */
+/* ==============Resposive screen 1359 x 798====== */
+
+
+@media only screen and (max-width: 1359px) {
+  .navList{
+    margin-left: 5%;
+  }
+  video{
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
+@media only screen and (max-width: 1100px){
+  .navList {
+    margin-left: 0.7%;
+  }
+  .navL{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .navList{
+    flex-direction:column;
+    margin-top: 37% ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  video{
+    height:70vh ;
+  }
+
+  #inpuName{
+     width: 20rem;
+     margin-left: 10.9rem;
+}
+
+.section{
+  width: 50%;
+}
+  .navL{
+    font-size: 20px;
+  }
+  
+  .linkName{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffffff;
+    width: 21rem;
+    margin-right: 0;
+  }
+  
+  .submetBTN{
+    width: 20rem;
+    margin-left: 10.5rem;
+    margin-top: 8px;
+  }
+
+  .submet{
+    flex-direction: column;
+  }
+  .loginL{
+    width: 10rem;
+    margin-left: 15rem;
+    padding-left: 30px;
+  }
+  .signHeading{
+    margin-left: 10rem;
+    font-size: 20px;
+    margin-bottom:10px;
+  }
+
+  .footer{
+    flex-direction: column;
+    height: 50rem;
+  }
+
+  .heading{
+    margin-top: 6rem;
+    font-size: 3rem
+  }
+  .premcontent{
+    width: 20rem;
+  }
+  .premcontentTwo{
+    width:  20rem;
+  }
+  .premcontent{
+    width: 20rem;
+  }
+  .prmName{
+    width: 90px;
+    margin-left: 5rem;
+  }
+  .prmNameTwo{
+    width: 90px;
+    margin-left: 5rem;
+  }
+  .pTageT{
+    margin-left: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .preminoHeading{
+    margin-top: 2rem;
+  }
+  .newh2{
+    font-size: 23px;
+  }
+
+  .Active{
+    margin-left: 6rem;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .Aitmes{
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .ATNW{
+    margin-left: -10px;
+  }
+.contactLink{
+  margin-left: 2rem;
+  font-size: 12px;
+}
+  .ANT{
+    margin-left: -1rem;
+  }
+}
